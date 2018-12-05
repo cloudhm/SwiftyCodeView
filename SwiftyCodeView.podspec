@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'arturdev' => 'mkrtarturdev@gmail.com' }
   s.source           = { :git => 'https://github.com/arturdev/SwiftyCodeView.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '9.3'
+  s.platform     = :ios, '9.0'
   s.default_subspec = "Core"
 
   s.subspec "Core" do |ss|
